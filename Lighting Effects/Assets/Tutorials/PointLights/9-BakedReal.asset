@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: 9-BakedReal
+  m_EditorClassIdentifier: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: Baked, Realtime, or Mixed?
+      Text:
+        m_Untranslated: 'In the Inspector window for a light GameObject, you''ll
+          see a Mode property. There are three types of modes for lights. Depending
+          on a gamer''s hardware available and how you want devices to process your
+          lighting effects, you may choose one mode over another. Let''s quickly
+          break down the three types.
+
+
+          Baked - Useful for light effects
+          that won''t change during gameplay, like scenery and directional light.
+          Baked light calculations are processed when a game project is saved or
+          exported from Unity. This reduces shading and lighting processing during
+          gameplay.
+
+
+          Realtime - Useful for lighting and casting shadows
+          on dynamic GameObjects or moveable elements. Lighting effects are processed
+          in realtime during gameplay. This can take time or cause issues if the
+          gamer''s hardward isn''t strong enough to handle the processing in complex
+          scenes.
+
+
+          Mixed - This mode divides the processing between baked
+          and realtime. It''s useful for baking scenery-impacted environments and
+          some dynamic GameObjects.
+
+
+          Throughout the remainder of this
+          lesson''s tutorials, you may choose between baked or realtime modes for
+          your lights. Since the scenes you''ll be working with aren''t complex,
+          it''s recommended that you use Realtime mode on all lights except for Directional
+          lights.
+
+
+          However, if you find that your computer has difficulty
+          processing the lights in Play mode while testing your projects, change
+          all of your lights to Baked mode.'
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Light Mode
+      Text:
+        m_Untranslated: '1. Make sure the Directional Light in the Hierarchy window
+          is selected.
+
+
+          2. In the Inspector window, change Mode to Realtime
+          if your computer is able to handle the processing power needed during Play
+          mode.
+
+
+          3. Test out the light processing in Play mode by selecting
+          the play button. If it takes too long to process or load, try changing
+          your light back to Baked mode and test Play mode again.
+
+
+          When
+          you''ve decided which light mode works best on your machine, select the
+          Next button to continue.'
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

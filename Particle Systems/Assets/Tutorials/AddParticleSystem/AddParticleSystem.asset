@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: AddParticleSystem
+  m_EditorClassIdentifier: 
+  TutorialTitle:
+    m_Untranslated: Add a Particle System
+  m_TutorialTitle: 
+  m_ProgressTrackingEnabled: 0
+  m_LessonId: 
+  m_Version: 0
+  m_Scene: {fileID: 102900000, guid: 0415d49594df340bb954283ce6075585, type: 3}
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 1
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 25.468117
+    m_Pivot: {x: 12.0667305, y: 5.441553, z: 29.56144}
+    m_Rotation: {x: 0.011919691, y: 0.115234904, z: -0.0013828287, w: 0.9932664}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 100000, guid: c33487a0fa8a1924daff3d8be12d59ec, type: 3}
+    m_Enabled: 1
+  m_WindowLayout: {fileID: 102900000, guid: cc5a4347551304f839df11ff2898b471, type: 3}
+  m_Pages:
+    m_Items:
+    - {fileID: 11400000, guid: db5d8ed6a30894abc8406eef3fbfbb9f, type: 2}
+    - {fileID: 11400000, guid: ff4650ba3edf44fb59a9cfacdbe35697, type: 2}
+    - {fileID: 11400000, guid: 3603f43db06e3432eaed69f5d1488f21, type: 2}
+    - {fileID: 11400000, guid: 383d3da2cf68640c69a8b3ecbda981b6, type: 2}
+    - {fileID: 11400000, guid: 36d9649bc0f054af1af00523a1408d30, type: 2}
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  Initiated:
+    m_PersistentCalls:
+      m_Calls: []
+  PageInitiated:
+    m_PersistentCalls:
+      m_Calls: []
+  GoingBack:
+    m_PersistentCalls:
+      m_Calls: []
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Quit:
+    m_PersistentCalls:
+      m_Calls: []
